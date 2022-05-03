@@ -33,7 +33,7 @@ const MainContainer = () => {
 
   return (
     <Container>
-      <TextTitle>Advice #{info.id}</TextTitle>
+      <TextTitle>ADVICE #{info.id}</TextTitle>
       <TextContent>{info.content}</TextContent>
       <Button onClick={handleClick} >
         <IconButton></IconButton>

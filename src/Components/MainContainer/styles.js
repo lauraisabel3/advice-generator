@@ -11,14 +11,14 @@ const Container = styled.div `
   align-items: center;
   padding: 40px;
   border-radius: 20px;
-  background-color: hsl(193, 38%, 86%);
-  box-shadow: 12px 12px 40px -6px hsl(205, 38%, 86%);
+  background-color: #F1CDD7;
+  box-shadow: 8px 8px 20px -8px #fcc8d2;
 `
 
 const TextTitle = styled.h1 `
   text-align: center;
   font-size: 1.4rem;
-  color: hsl(218, 23%, 16%);
+  color: white;
 
   ${bp.desktop} {
     font-size: 1.6rem;
@@ -29,7 +29,7 @@ const TextContent = styled.p `
   text-align: center;
   margin: 8px 0 20px 0;
   font-size: 1.6rem;
-  color: hsl(217, 19%, 24%);
+  color: hsl(207, 19%, 24%);
 
   ${bp.desktop} {
     font-size: 2rem;
@@ -46,7 +46,7 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: hsl(150, 100%, 66%);
+  background-color: #F7BB9B;
   border: none;
   cursor: pointer;
 
